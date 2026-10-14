@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Poultry Heist</title>
+    <title>Vortex Songs</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,15 +27,26 @@
             width: 350px;
         }
         h1 {
-            font-size: 24px;
-            margin-bottom: 5px;
+            font-size: 28px;
+            margin-bottom: 20px;
             letter-spacing: 1px;
+            color: #00d2ff;
+        }
+        .track-info {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 0 0 5px 0;
+            font-weight: 600;
         }
         p {
             color: #b0bec5;
             font-size: 14px;
-            margin-top: 0;
-            margin-bottom: 25px;
+            margin: 0;
         }
         audio {
             width: 100%;
@@ -51,15 +62,20 @@
 <body>
 
     <div class="player-container">
-        <h1>The Poultry Heist</h1>
-        <p>Now Playing</p>
+        <h1>Vortex Songs</h1>
+        
+        <div class="track-info">
+            <p>Now Playing</p>
+            <h2>The Poultry Heist</h2>
+        </div>
+
         <audio controls src="song.mp3">
             Your browser does not support the audio element.
         </audio>
     </div>
 
     <footer>
-        &copy; 2026 Your Name. All rights reserved.
+        &copy; 2026 Vortex Songs. All rights reserved.
     </footer>
 
 </body>
